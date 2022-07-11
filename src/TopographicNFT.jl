@@ -1,5 +1,8 @@
 module TopographicNFT
 
-greet() = print("Hello World!")
+export plasticity_window
+include("./solvers.jl")
+include("./biology.jl")
+include("./initialisation.jl")
 
 end # module
